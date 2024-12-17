@@ -1,0 +1,252 @@
+@media only screen and (max-width: 500px) {
+  // hero
+  .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+  }
+  .main-cared-one {
+    margin-top: 15px;
+  }
+  .part-one {
+    padding: 15px;
+  }
+  .title-block h4 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 17px;
+    justify-content: center;
+  }
+  .title-block-2 {
+    justify-content: center;
+  }
+  .posi {
+    text-align: center;
+  }
+  .photo-1 {
+    margin: 0px auto;
+  }
+  .icones {
+    justify-content: center;
+  }
+  .cvbtn,
+  .aboutmebtn,
+  .aboutme {
+    font-size: 13px;
+  }
+  .aboutme {
+    display: block;
+  }
+  .my-portfolio {
+    padding: 4px 21px 14px 21px;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 17px;
+  }
+  .part-tow {
+    padding: 0px 10px;
+    padding-bottom: 66px !important;
+  }
+  .loadmore {
+    width: 100%;
+    text-align: center;
+    border-right: 0px;
+    border-radius: 17px 17px 0px 10px;
+  }
+  .photo-1 a img {
+    border-radius: 190px;
+    width: 210px;
+  }
+  .about-me,
+  .aboutmebtn,
+  .cvbtn {
+    display: none;
+  }
+
+  #coupon_code {
+    width: 100%;
+  }
+  .coupon .button {
+    margin-top: 10px !important;
+    width: 100% !important;
+  }
+  #menu-my-account {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  #menu-my-account li {
+    margin: 3px;
+  }
+  #menu-my-account li a {
+    border: 1px solid $main-color;
+    padding: 3px 11px;
+    border-radius: 4px;
+  }
+  .navbar {
+    border-top: 7px solid #006535;
+    border-bottom: 7px solid #006535;
+    padding: 4px 0px;
+  }
+  .dropdown-menu .nav-item .nav-link {
+    padding: 6px 19px !important;
+    background-color: #3c6b1b00;
+  }
+
+  .blog-box-1 {
+    height: 40vh;
+  }
+  .hero-slider-area .owl-dots {
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    width: auto;
+  }
+  .banner img {
+    border-radius: 10px;
+  }
+  .herobanner img,
+  .herobanner,
+  .banner img {
+    border-radius: 10px;
+  }
+
+  .navbar-brand img {
+    width: 50%;
+  }
+  .hide1 {
+    display: none !important;
+  }
+  .header-btn .fa-arrow-right {
+    display: none;
+  }
+  .site-title {
+    font-size: 26px;
+  }
+  .site-title2 {
+    font-size: 22px;
+  }
+  .jopbtn11 {
+    text-align: center;
+    margin-top: 27px;
+  }
+  .bara1 {
+    text-align: center;
+  }
+  .joptitle {
+    text-align: center;
+    padding-bottom: 6px;
+  }
+  .feature-item {
+    text-align: center;
+  }
+  .help-section {
+    flex-direction: column;
+  }
+  .flating-btn3 {
+    bottom: 35%;
+  }
+  //
+  // corsess title
+  //
+  .sideone {
+    width: 62%;
+  }
+
+  //   coach info
+  .cotch-info-card {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .cotch-img {
+    width: 150px;
+    height: 100%;
+    background: red;
+    display: inline-block;
+  }
+  .content-info {
+    text-align: center;
+  }
+  .content-info h3 {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .content-info p {
+    text-align: center;
+  }
+  .content-info a {
+    display: inline-block;
+  }
+  .cosch-single {
+    flex-direction: column-reverse;
+  }
+
+  // pro-slider-one
+  .product-slider .owl-dots {
+    text-align: center;
+  }
+
+  // deal
+  .end-date {
+    padding: 8px 9px;
+  }
+  .add-to-card {
+    padding: 4px 14px !important;
+    font-size: 14px;
+  }
+  // trending
+  .Trending .row {
+    flex-direction: column-reverse;
+  }
+  .trending-banner a {
+    width: 100%;
+  }
+
+  // cta
+  .right-col {
+    border-right: none;
+  }
+  .cta-border-wrapper {
+    padding: 20px !important;
+  }
+  .social-icons {
+    margin-bottom: 17px;
+    margin-top: 9px;
+  }
+
+  // form
+  .comment-form-author,
+  .comment-form-url,
+  .comment-form-email {
+    width: 100%;
+  }
+
+  .comment-author img {
+    width: 10%;
+  }
+  .mobimenue {
+    display: flex;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .laptop-menu {
+    display: none;
+  }
+
+  // contact info
+  .iconss {
+    margin-right: 0px;
+  }
+  .conta-info {
+    line-height: 29px;
+  }
+  .contact-info {
+    padding: 20px 20px;
+  }
+  .phone-line {
+    margin-bottom: 10px;
+  }
+}

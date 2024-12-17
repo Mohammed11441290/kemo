@@ -1,0 +1,80 @@
+// hide some section from the sin up page
+#checkout-account-register h2,
+.acf-user-register-fields.acf-fields,
+#checkout-payment h4 {
+    display: none;
+}
+
+.lp-archive-courses h1 {
+    font-size: 26px !important;
+    background-color: #acaaaa;
+    padding: 16px 0px;
+      padding-right: 0px;
+      padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 7px;
+}
+
+#learn-press-checkout-place-order {
+    padding: 9px;
+    font-family: 'Vazirmatn-bold';
+    transition: .3s ease-in-out !important;
+
+}
+#checkout-payment #checkout-order-action button:hover {
+    background-color: $secondary-color !important;
+    border: 1px solid black !important;
+    opacity: 1 !important;
+
+}
+#checkout-account-logged-in {
+    padding: 5px 13px;
+    border: 1px solid #ccc;
+    margin-bottom: 11px;
+}
+#checkout-order h4 {
+    position: relative;
+}
+#checkout-order h4::after {
+    content: "";
+    position: absolute;
+    height: 16px;
+    background: rgba(251, 176, 22, 0.2509803922);
+    width: 145px;
+    bottom: -4px;
+    right: 0px;
+  }
+  
+.order-total,
+.cart-subtotal,
+.acf-label {
+    font-family: 'Vazirmatn-bold';
+}
+
+// acf
+.acf-user-register-fields.acf-fields {
+    display: block !important;
+}
+.acf-repeater.-empty.-table,
+.acf-field.acf-field-repeater.acf-field-64c339db5e58d {
+    display: none !important;
+}
+#acf-field_6552c889bacde {
+    width: 100%;
+}
+
+
+.user-img a {
+    width: 100%;
+    
+}
+
+
+
+// couatch
+.user-card-1 {
+    background-color: #fbb01657;
+    padding: 7px;
+    text-align: center;
+}

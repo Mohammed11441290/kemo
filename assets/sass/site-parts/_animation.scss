@@ -1,0 +1,39 @@
+// popup hide div
+
+@keyframes popUp {
+    0% { transform: scale(0.5); opacity: 0; }
+    80% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+@keyframes pophid {
+    0% { transform: scaleZ(0.5); opacity: 0; }
+    80% { transform: scaleZ(1.05); }
+    100% { transform: scaleZ(1); }
+    
+}
+
+.ddfdf{
+    
+    transform: scaleZ();
+
+}
+
+
+  
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; display: none; }
+  }
+
+
+  
+  .icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+ 

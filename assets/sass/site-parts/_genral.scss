@@ -1,0 +1,169 @@
+
+
+
+/* ===================
+fonts
+====================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;family=Rubik:wght@400;500;700;800;900&amp;display=swap');
+
+
+/* ===================
+general css
+====================== */
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  scroll-behavior: inherit !important;
+}
+
+html, body {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+.popup-box::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: 'YourCustomFont', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: normal;
+  color: #757F95;
+  line-height: 1.8;
+}
+
+a {
+  color: #0C1529;
+  display: inline-block;
+}
+.color-8 {
+  color: white !important;
+}
+
+a, a:active, a:focus, a:hover {
+  outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0C1529;
+  margin: 0px;
+  font-weight: 500;
+  font-family: "Vazirmatn-bold";
+  line-height: 1.2;
+}
+
+
+p {
+  margin: 0px;
+}
+
+.img, img {
+  max-width: 100%;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  height: auto;
+}
+
+label {
+  color: #999;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+*::-moz-selection {
+  background: #d6b161;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #555;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #555;
+  color: #fff;
+  text-shadow: none;
+}
+
+*::-moz-placeholder {
+  color: #999;
+  font-size: 16px;
+  opacity: 1;
+}
+
+*::placeholder {
+  color: #999;
+  font-size: 16px;
+  opacity: 1;
+}
+img {
+  height: 100%;
+  width: 100%;
+
+}
+
+.green {
+  color: #85DD6C !important;
+}
+.white {
+  color: white !important;
+}
+.black {
+  color: #0C1529 !important;
+}
+
+
+.z-1 {
+  
+  position: relative;
+  z-index: 12;
+}
+
+.bg-fixed{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+hr {
+  margin: 0px 0;
+}
+.rtl {
+  direction: rtl;
+}

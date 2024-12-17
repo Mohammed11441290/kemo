@@ -1,0 +1,21 @@
+#_customize-input-facebook-link,
+#_customize-input-twitter-link,
+#_customize-input-instagram-link,
+#_customize-input-whatsapp-link,
+#_customize-input-youtube-link,
+#_customize-input-email-link,
+#_customize-input-phone-link,
+#_customize-input-about-button,
+#_customize-input-contact-button,
+#_customize-input-location-button,
+#_customize-input-section_title,
+#_customize-input-section_link
+{
+    width: 100% !important;
+    height: 34px;
+}
+
+#_customize-input-section_text {
+    width: 100% !important;
+    height: 131px;
+}

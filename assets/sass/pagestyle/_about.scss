@@ -1,0 +1,79 @@
+.inercounter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; /* Adjust spacing between images */
+    width: 100%; /* Set width as needed */
+    height: 300px; /* Set height as needed */
+}
+
+/* Define grid areas for each image */
+.item-1 { grid-area: 1 / 1 / 2 / 2; }
+.item-2 { grid-area: 1 / 2 / 2 / 3; }
+.item-3 { grid-area: 2 / 1 / 3 / 2; }
+.item-4 { grid-area: 2 / 2 / 3 / 3; }
+
+/* Example styles for the images */
+.inercounter > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $secondary-color;
+    flex-direction: column;
+    text-align: center;
+    /* Additional styles like width, height, etc. */
+}
+
+.about-title::after {
+    position: absolute;
+    content: "";
+    width: 82px;
+    height: 13px;
+    background-color: #077d4187;
+    bottom: 1px;
+    right: 0px;
+    z-index: -1;
+  }
+
+
+.floating-img {
+    position: absolute;
+    z-index: -1;
+    width: 49%;
+    right: -367px;
+    top: -140px;
+    animation: moveInCircle 4s linear infinite; /* Adjust animation duration and timing */
+
+}
+// .container {
+//     position: relative;
+//     width: 300px; /* Adjust container size as needed */
+//     height: 300px; /* Adjust container size as needed */
+//     overflow: hidden;
+// }
+
+.moving-image {
+    position: absolute;
+    width: 100px; /* Adjust image size as needed */
+    height: 100px; /* Adjust image size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    animation: moveInCircle 4s linear infinite; /* Adjust animation duration and timing */
+}
+
+@keyframes moveInCircle {
+    0% {
+        transform: translateX(150px) translateY(0px) rotate(0deg);
+    }
+    25% {
+        transform: translateX(0px) translateY(150px) rotate(90deg);
+    }
+    50% {
+        transform: translateX(-150px) translateY(0px) rotate(180deg);
+    }
+    75% {
+        transform: translateX(0px) translateY(-150px) rotate(270deg);
+    }
+    100% {
+        transform: translateX(150px) translateY(0px) rotate(360deg);
+    }
+}

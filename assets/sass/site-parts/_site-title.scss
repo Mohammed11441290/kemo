@@ -1,0 +1,132 @@
+.site-title-one {
+    font-size: 25px;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.site-title-one::after {
+    position: absolute;
+    content: "";
+    width: 62%;
+    height: 20px;
+    background-color: #fbb0164d;
+    bottom: -4px;
+    right: 0px;
+
+}
+
+
+
+
+.title-one {
+    position: relative;
+    padding-bottom: 14px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    z-index: 1;
+}
+.title-one::after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 22%;
+    height: 3px;
+    background-color: $main-color;
+    bottom: 0;
+    left: 0px;
+    border-radius: 118px;
+}
+
+body .dir-ar .title-one {
+    position: relative;
+    padding-bottom: 14px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    z-index: 1;
+}
+body .dir-ar .title-one::after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 22%;
+    height: 3px;
+    
+    bottom: 0;
+    right: 0px !important;
+    border-radius: 118px;
+}
+
+
+
+
+
+
+
+
+
+
+// corese.cor title
+.sideone {
+    background: $bg-black;
+    height: 3px;
+    width: 88%;
+    position: relative;
+}
+.sideone::before {
+    content: "";
+    position: absolute;
+    background-color: $bg-black;
+    height: 13px;
+    width: 58px;
+    top: -5px;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+.sidetow {
+    background: #000000;
+    height: 3px;
+    width: 35%;
+    position: relative;
+}
+.sidethree::before {
+    content: "";
+    position: absolute;
+    background-color: $bg-black;
+    height: 13px;
+    width: 58px;
+    top: -5px;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+.course-lessone {
+    background: #000000;
+    height: 3px;
+    width: calc(50% + 10px);
+    position: relative;
+}
+.course-lessone::before {
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    height: 13px;
+    width: 62px;
+    top: -5px;
+    border-radius: 0px 10px 10px 0px;
+    left: 0px;
+}
+.sidethree {
+    background: #000000;
+    height: 3px;
+    width: calc(50% + 10px);
+    position: relative;
+}
+.sidetow::before {
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    height: 13px;
+    width: 62px;
+    top: -5px;
+    border-radius: 0px 10px 10px 0px;
+    left: 0px;
+}

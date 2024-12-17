@@ -1,0 +1,178 @@
+// login form
+
+.user-icon {
+    font-size: 4rem;
+    margin: -20px;
+}
+.form-control:focus {
+  box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+}
+
+// wp form
+
+.my-login-form {
+    width: 100%;
+    margin: auto;
+    border: 1px solid $main-color;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+
+#user_login,
+#user_pass {
+    padding: 12px 15px;
+}
+  #user_login,
+  #user_pass {
+    outline: none;
+    border: 1px solid $main-color;
+    margin-bottom: 10px;
+  }
+  .loggin-btn {
+    background-color: $main-color;
+    outline: none;
+    border: 1px solid $white;
+    padding: 9px 15px;
+    border-radius: 5px;
+    color: white;
+    transition: .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .loggin-btn:hover {
+    background-color: $secondary-color ;
+    border: 1px solid $main-color;
+  }
+ .left-side {
+  background-color: red;
+ }
+ .right-side {
+  background-color: blue;
+ }
+//  new login page for new theme 
+.loginpage {
+  background-color: #ccc;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.form-tab {
+  background-color: white;
+  padding: 35px;
+}
+.form-tab nav .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: $main-color;
+  background-color: #fff;
+  border-color:#0000 #0000 $main-color #f000;
+  padding: 7px 0px !important;
+}
+.form-tab .tab-content {
+  border :   0px;
+  padding:  0px;
+}
+
+
+
+// cat
+.cta {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 1rem;
+}
+.right-col {
+  border-right: 1px solid gray;
+}
+.cta-social-icon i {
+  padding: 10px;
+  border: 1px solid $main-color;
+  border-radius: 55px;
+  transition: .0s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+.cta-social-icon i:hover{
+  color: $white;
+  background-color: $main-color;
+}
+.subscribe-input {
+  width: 100%;
+  border: 1px solid #056839;
+ 
+  padding: 6px;
+} 
+.subscribe-btn {
+  background-color: $main-color;
+  height: 100%;
+  width: 56px;
+  right: 0;
+}
+.subscribe-btn i {
+  margin-top: 13px;
+}
+// shoping page style
+.category-icon {
+  float: inline-end;
+}
+.category-list-shop h3 {
+  border-bottom: 4px solid #077d41;
+  padding-bottom: 10px;
+}
+.category-list-shop ul li a {
+  text-align: start;
+}
+.category-list-shop ul li{
+  border-bottom: 1px solid $main-color;
+  padding: 4px 0px;
+}
+.category-list-shop ul li a:hover {
+  color: $main-color;
+}
+
+// cart page tyle in =  login.scss
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+  width: 100% !important;
+}
+.woocommerce table.shop_table th {
+  padding: 18px 12px;
+  line-height: 0px;
+}
+.product-price {
+  margin-bottom: 0px ;
+  font-size: 18px;
+  display: table-cell;
+}
+#coupon_code {
+  width: 180px;
+  padding: 4px 6px !important;
+}
+.coupon .button {
+  width: 100%;
+}
+.cart_totals h2 {
+  font-size: 24px;
+}
+
+// acount page 
+.woocommerce-MyAccount-navigation ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 13px;
+}
+.woocommerce-MyAccount-navigation ul li {
+
+  padding: 4px 10px;
+  text-align: center;
+  border: 1px solid $main-color;
+  margin-top: 10px;
+}
+.woocommerce-MyAccount-navigation ul li a {
+  width: 100%;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    padding: 8px 10px;
+}
+.woocommerce-MyAccount-content {
+  text-align: center;
+}

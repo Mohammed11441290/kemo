@@ -1,0 +1,72 @@
+/*
+  =======================
+  == genral css  style ==
+  =======================
+*/
+
+@import "site-parts/genral";
+@import "site-parts/page-header";
+@import "site-parts/themedef";
+@import "site-parts/color";
+@import "site-parts/animation";
+@import "site-parts/font-var";
+@import "site-parts/font-classes";
+@import "site-parts/button";
+@import "site-parts/site-title";
+@import "site-parts/forms";
+@import "site-parts/comment";
+
+
+/*
+  =======================
+  ==   website part    ==
+  =======================
+*/
+@import "home/slider";
+@import "home/servicess";
+@import "home/blog";
+@import "home/header";
+
+/*
+  ========================
+  == single pages style ==
+  ========================
+*/
+@import "single/blog-single";
+/*
+  ========================
+  ====  pages style     ==
+  ========================
+*/
+
+
+@import "pagestyle/herosection";
+@import "pagestyle/gallery";
+@import "pagestyle/marginandpadding";
+@import "pagestyle/testmonials";
+@import "pagestyle/single-post";
+@import "pagestyle/nav";
+@import "pagestyle/login";
+@import "pagestyle/product";
+
+@import "pagestyle/about";
+
+@import "pagestyle/footer";
+
+
+
+
+/*
+  ========================
+  ====  media querys    ==
+  ========================
+*/
+@import "media/scr-991";
+@import "media/src-500";
+@import "media/src-400";
+
+
+
+
+
+

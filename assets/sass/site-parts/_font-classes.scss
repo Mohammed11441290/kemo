@@ -1,0 +1,65 @@
+$primary : "Vazirmatn-black" ;
+$sup-primary : "Vazirmatn-bold" ;
+$secondary : "Vazirmatn-Light" ;
+$sub-scondary : "Vazirmatn-Medium" ;
+$sub-scondary : "Vazirmatn-Medium" ;
+
+$en_primary :  "PoetsenOne";
+$en_secondary :  "PoetsenOne";
+
+.font-0 {
+    font-family: $sub-scondary !important;
+}
+.font-1 {
+    font-family: $primary  !important; 
+}
+.font-2 {
+    font-family: $secondary !important;
+}
+.font-3 {
+    font-family: $sub-scondary !important;
+}
+
+
+
+/*
+  |====
+ | |== font size and color 
+  |====
+*/
+
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+  
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+p {
+    font-size: 16px;
+}
+font-size-one {
+    font-size: 14px !important;
+}
+
+
+.item-instructor {
+    padding: 9px !important;
+}

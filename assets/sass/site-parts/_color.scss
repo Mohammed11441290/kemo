@@ -1,0 +1,120 @@
+
+
+$black:  #000000;
+$white:  #ffffff;
+$green:  #fbb016;
+$three:  rgb(50, 51, 50);
+$four:  rgb(37, 52, 94);
+$gold:  gold;
+
+
+// color pallte
+$main-color: #077d41;
+$secondary-color: #077d41;
+$sub-secondary-color: #0077b8;
+
+$bg-black: #000000;
+$bg-white: #d4d1d1;
+$bg_main: #142481;
+$bg-sec : #142481;
+$bg_gray: rgba(128, 128, 128, 0.212);
+
+.gold {
+  color:$gold ;
+}
+.white {
+  color: $white;
+}
+.primary {
+  color: $main-color;
+}
+
+.secon {
+    color: $secondary-color;
+}
+.sub-secon {
+    color: $sub-secondary-color;
+}
+.black {
+  color: $black;
+}
+.bg-primary {
+  background-color: $main-color;;
+}
+.bg-sub {
+  background-color: $secondary-color;
+}
+// .sup-praimary {
+
+// }
+
+
+// background
+.bg-praimary {
+    background-color: $bg-white;
+}
+.bg-secondary {
+    background-color: $secondary-color !important; 
+}
+
+
+// overlay
+.overlay {
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background: #090f2ef2;
+display: block;
+transition: all 0.5s ease-in-out 0s;
+}
+.overlay1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 17, 12, 0.1);
+  }
+  .overlay2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #05110cc9;
+    border-radius: 0px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .overlay3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.69);
+    top: 0px;
+    left: 0;
+  }
+  .overlay4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.92);
+    top: 0px;
+    left: 0;
+  }
+  .overlay5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 60, 39, 0.92);
+    top: 0px;
+    left: 0;
+  }
+  .overlay6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.54);
+    top: 0px;
+    left: 0;
+    z-index: -2;
+  }
+  

@@ -1,0 +1,159 @@
+#members-cp {
+    display: none;
+}
+#wpforms-notifications
+ {
+    display: none;
+}
+/* .wpforms-admin-wrap {
+    margin: ;
+  } */
+/* user */
+.user-admin-color-wrap,
+.user-syntax-highlighting-wrap,
+.user-language-wrap,
+.show-admin-bar,
+.user-comment-shortcuts-wrap,
+.user-profile-picture,
+.user-description-wrap,
+#wpfooter,
+#contextual-help-columns,
+#contextual-help-link,
+#show-settings-link,
+.user-rich-editing-wrap,
+.wpforms-notifications {
+    display: none;
+}
+/* #your-profile {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 11px;
+} */
+/* change the logo */
+
+
+.wrap {
+    border: 1px solid #6c6161;
+    padding: 9px;
+    border-radius: 7px;
+}
+
+/* 
+    login items
+*/
+
+#backtoblog {
+    margin: 16px 0;
+    word-wrap: break-word;
+    display: none !important;
+} 
+/* member-blugin */
+#members-admin-header,
+.members-upgrade-header,
+#members_review_notice {
+ 
+    display: none;
+}
+/* wpform  */
+#wpforms-header,
+#wpforms-flyout,
+.wpforms-dash-widget-chart-block,
+.wpforms-dash-widget-settings,
+.wpforms-dash-widget-recommended-plugin {
+    display: none;
+}
+.wpforms-admin-wrap .page-title {
+    display: none  !important;
+}
+.wpforms-admin-wrap {
+    margin: 16px 0px 0px 19px;
+  }
+#wpforms-entries-list #wpforms-dash-widget-forms-list-table td {
+    text-align: right;
+}
+#wpforms-entries-list #wpforms-dash-widget-forms-list-table {
+    width: 100%;
+}
+#wpforms-dash-widget-chart-title {
+    font-family: inherit !important;
+}
+
+/* custmaiztion */
+#_customize-input-footer_tetx_title {
+    width: 100%;
+    height: 36px;
+}
+#_customize-input-footer_tetx_title {
+    width: 100% !important;
+    height: 34px;
+}
+
+
+/*===============================*/
+/*    login page style           */
+/*=============================== */
+#loginform {
+    border-radius: 8px;
+    margin: 11px;
+}
+#language-switcher {
+    display: none;
+}
+
+.login #nav a {
+    color: red;
+}
+
+body.login {
+    background-image: url('../../assets/image/login-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body.login:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/image/login-1.jpg');
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+
+/* CSS styles specific to the "subscriber" user role */
+.user-role-subscriber .my-element {
+    color: red;
+    /* Add your custom styles here */
+}
+
+/* CSS styles specific to the "editor" user role */
+.user-role-editor .my-element {
+    color: blue;
+    /* Add your custom styles here */
+}
+
+/* CSS styles specific to the "administrator" user role */
+.user-role-student .my-element {
+    color: green;
+    /* Add your custom styles here */
+}
+
+.user-role-student .acf-field.acf-field-post-object {
+    display: none !important;
+}
+
+
+/* CSS styles specific to the "administrator" user role in the admin area */
+body.user-role-student .acf-field.acf-field-post-object {
+    display: none;
+    /* Add your custom styles here */
+}
+
+/* CSS styles specific to the "editor" user role in the admin area */
+body.user-role-editor .my-element {
+    color: blue;
+    /* Add your custom styles here */
+}

@@ -1,0 +1,304 @@
+
+@media only screen and (max-width: 400px) {
+    // call to actions
+    .hero-slider-area .owl-theme .owl-nav {
+        bottom: 52px;
+    }
+    .hero-slider-area .owl-dots {
+        bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        left: 0px;
+        width: auto;
+    }
+    .top-nav-bar {
+        display: none !important; 
+    }
+    .slider-content > div h2 {
+        font-size: 30px ;
+    }
+    .slider-content > div p {
+        font-size: 16px;
+        font-family: "Vazirmatn-Medium" !important;
+        text-align: justify;
+    }
+    .lp-archive-courses h1 {
+        
+        margin-top: 70px;
+        margin-bottom: 10px;
+      }
+
+    .all-corsce-btn {
+        background-color: #005689;
+        padding: 7px 17px;
+        position: relative;
+        left: 0px;
+        rotate: 0deg;
+        bottom: 50%;
+        outline: 1px solid #005689 !important;
+        border: 2px solid #ffffff;
+        border-radius: 7px 7px 7px 7px;
+        margin-top: 21px;
+        width: 100%;
+        text-align: center;
+      }
+    .popup-header__inner .lp-form  {
+        display: none ;
+    }
+    #popup-header, #popup-footer {
+        right: 0px !important;
+    }
+    .lp-archive-courses .course-title {
+        padding-top: 15px !important;
+    }
+    .calltoaction {
+        padding: 33px 0px;
+       
+      }
+      .contact-info ul {
+        flex-direction: column;
+      }
+    .contact-info ul li {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-info ul li span {
+        margin: 0px ;
+    }
+    //blog
+    .faq-section {
+        display: inline;
+    }
+    .pro-left-card {
+        display: none;
+      }
+    .all-blog-btn {
+        display: none !important;
+    }
+    // .product-row {
+    //     flex-direction: column-reverse;
+    // }
+
+    .what-btn {
+        margin: 8px;
+    
+    }
+    .nav-link a i {
+        position: relative;
+        margin-top: 5px;
+        display: block;
+        float: left;
+    }
+    // nav bar
+    .mobile-menu-right {
+        margin-right: -8px ;
+    }
+    .logo {
+        // width: 80px;
+        height: 46px;
+        padding: 6px 0px;
+        margin-left: -8px;
+    }
+  
+    // .custom-logo-link img {
+    //     // width: 69%;
+    //   }
+    .navbar-brand {
+        padding-left: 0px;
+        width: 81%;
+    }
+
+    // .navbar-mobile {
+    //     // margin-top: 8px;
+    //     // margin-right: 6px;
+    //     // margin-left: 6px;
+    //     // border-radius: 7px;
+    //     // padding: 4px 0px;
+    // }
+
+    .course-titles {
+        overflow: scroll;
+        
+        height: 241px;
+      }
+
+    .requ {
+        display: none ;
+    }
+  
+    .site-breadcrumb {
+      padding: 70px 0px;
+    }
+    .site-breadcrumb .breadcrumb-title {
+        font-size: 24px;
+    }
+    .portfolio-area {
+        flex-direction: column-reverse;
+    }
+    .fill {
+        height: 46vh;
+    }
+    .about-area2 {
+        padding: 11px 0px;
+    }
+    .flating-btn {
+        left: 0px;   
+    }
+    .serv-area {
+        padding: 26px 0px;
+    }
+    .feature-area {
+        padding-top: 17px;
+        
+    }
+    .counter-box {
+        border: 1px dashed white;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 16px;
+        
+      }
+      .footer-menue-2,
+      .footer-menue-2
+       {
+        width: 50%;
+      }
+
+    // slider
+    .slider-content {
+        padding: 100px 0;
+        text-align: center;
+        padding-top: 27px;
+    }
+    .left-content {
+        display: none;
+    }
+    .right-content {
+        text-align: center;
+       
+    }
+    .right-content h2 {
+        text-align: start !important;
+        margin-bottom: 1rem;
+        
+    }
+
+    // call to action btn
+
+    .call-to-action {
+        width: 100%;
+        border: 2px solid #016096;
+        outline: 3px solid white;
+    }
+    .call-to-action-2 {
+        display: none;
+    }
+
+
+    .numb {
+        padding: 9px 13px;
+    }
+
+  
+    
+
+    // 
+        // corsess title
+    // 
+    .sideone {
+        
+      
+        width: 62%;
+        
+      }
+
+      .page-title-area .page-title-content h2 {
+    
+        font-size: 20px;
+        
+      }
+      // price card
+      .right-price {
+        padding-right: 22px;
+      }
+      
+    //   title  style
+    .h2-style::after {
+        width: 145px;
+    }
+
+    //   corse single
+    .target ul li {
+       
+        font-size: 13px;
+      }
+
+    //   coach info
+    .cotch-info-card {
+        padding: 10px;
+        border: 1px solid black;
+        text-align: center;
+    }
+    .cotch-img {
+        width: 150px;
+        height: 100%;
+        background: red;
+        display: inline-block;
+    }
+    .content-info {
+        text-align: center;
+    }
+    .content-info h3 {
+        margin-top:10px ;
+        text-align: center;
+    }
+    .content-info p {
+        text-align: center;
+    }
+    .content-info a {
+        display: inline-block;
+    }
+
+    .cosch-single {
+        flex-direction: column-reverse;
+    }
+
+    // btn seting
+    .theme-btn {
+        font-size: 16px;
+      
+        padding: 5px 9px;
+    }
+
+
+    // footer 
+    
+    .primary-menu {
+        width: 50%;
+    }
+
+    // projects
+   
+
+    .pro-link {
+        padding: 3px;
+    }
+
+// blog
+.date {
+    
+    height: 70px;
+    width: 70px;
+    top: -49;
+    border-radius: 4px solid $secondary-color;
+}
+
+    
+    
+}

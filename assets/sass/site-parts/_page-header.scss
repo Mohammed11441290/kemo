@@ -1,0 +1,27 @@
+.page-header-one.bg-19 {
+    padding: 16px 0px;
+    background-size: cover;
+
+}
+
+.page-title-content {
+    position: relative;
+    z-index: 999999;
+}
+
+.overlay-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: #01964aa8;
+    top: 0px;
+}
+
+.total-result {
+    background-color: #fff;
+    display: inline-block;
+    padding: 5px 8px;
+  }
+
+

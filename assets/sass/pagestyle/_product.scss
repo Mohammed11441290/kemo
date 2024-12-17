@@ -1,0 +1,249 @@
+
+.pro-rating-icon {
+    font-size: 13px;
+    color: #f5ce00;
+}   
+
+// category page
+.term-description {
+    display: none;
+}
+
+
+// deals
+
+.deal {
+    width: 100%;
+    // padding: 3.6rem 4rem 4.8rem;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 380px;
+    padding: 18px;
+    border: 1px solid $main-color;
+  }
+  
+  .deal-buttom .day span {
+    background-color: $main-color;
+    color: $white;
+    padding: 15px;
+  }
+  .deal-buttom {
+    justify-content: space-between;
+    width: 40%;
+  }
+  .timess {
+    font-size: 11px;
+  }
+  
+  .deal-content h2 {
+    font-size: 26px;
+  }
+  .shop-now-btn {
+    color: $main-color;
+  }
+  .shop-now-btn:hover {
+    color: rgb(0, 0, 0);
+  }
+  // deals 
+ 
+  .deal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .end-date {
+    padding: 12px 9px;
+    background-color: #04532bc4;
+    display: inline-block;
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+    border: 1px solid #ffffff !important;
+    outline: 1px solid #000000;
+  }
+  .shop-btn {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+  }
+  .sale-price {
+    position: absolute;
+    right: 9px;
+    background-color: $main-color;
+    padding: 7px 8px;
+    top: 9px;
+    border: 1px solid #ffffff !important;
+    outline: 1px solid #000000;
+}
+
+
+
+.deal-slider .owl-nav {
+    margin-top: 10px;
+}
+
+
+.deal-slider .owl-nav .owl-next,
+.deal-slider .owl-nav .owl-prev {
+  margin-right: 5px;
+}
+.deal-slider .owl-nav .owl-next i,
+.deal-slider .owl-nav .owl-prev i {
+  padding: 10px;
+  border: 1px solid $black;
+  color: $main-color;
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.deal-slider .owl-nav .owl-next i:hover,
+.deal-slider .owl-nav .owl-prev i:hover {
+  background-color: $main-color;
+  color: $white;
+}
+
+
+// trendign
+.trending-slider{
+  position: relative;
+ 
+}
+.trending-slider .owl-nav {
+  margin-top: 10px;
+  top: -65px;
+  position: absolute;
+  right: 0px;
+}
+.trending-slider .owl-nav .owl-next,
+.trending-slider .owl-nav .owl-prev {
+  margin-right: 5px;
+}
+.trending-slider .owl-nav .owl-next i,
+.trending-slider .owl-nav .owl-prev i {
+  padding: 10px;
+  border: 1px solid $black;
+  color: $main-color;
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.trending-slider .owl-nav .owl-next i:hover,
+.trending-slider .owl-nav .owl-prev i:hover {
+  background-color: $main-color;
+  color: $white;
+}
+
+// pro-slider-one 
+.product-section{
+  background-color: #077d4140;
+}
+
+
+// products 
+.notrated {
+  font-size: 13px;
+}
+
+// product single
+#big.owl-theme .owl-next,
+#big.owl-theme .owl-prev {
+  background: $main-color;
+  width: 34px;
+  line-height: 40px;
+  height: 44px;
+  margin-top: -20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  color: $white;
+}
+
+
+// cobone
+
+
+// custome woo comerce sh
+.flex-control-nav {
+  display: flex;
+}
+.flex-control-nav.flex-control-thumbs li img {
+  width: 90%;
+}
+.varaible-value .value {
+  display: flex;
+}
+
+
+// single product 
+
+  // varaible card 
+  .varaible-value td select {
+    padding: 6px 7px;
+    border: 1px solid $main-color;
+    background-color: #f000;
+}
+.varaible-value th label {
+  // background-color: $main-color;
+  color: $black;
+  font-weight: bold;
+  // padding: 3px 6px;
+  margin: 0px;
+  border-radius: 6px;
+  margin-right: 20px;
+  // border: 1px solid #000000;
+}
+
+.reset_variations {
+  background-color: #af2b2b;
+  padding: 1px 11px;
+  margin-left: 5px;
+  border: 1px solid white;
+  // outline: 2px solid #077d41;
+  color: $white;
+  font-weight: bold;
+}
+
+
+
+// projects
+
+.carosel-section {
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 12px;
+}
+
+.hotel-gallery-slider .owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-gallery-slider .owl-nav .owl-prev,
+.hotel-gallery-slider .owl-nav .owl-next
+{
+  border: 3px solid #d9d9d9 !important;  
+  color: $white;
+}
+.hotel-gallery-slider .owl-nav .owl-prev i,
+.hotel-gallery-slider .owl-nav .owl-next i
+{
+ padding: 10px !important;
+ color: #fff;
+}
+.hotel-gallery-slider .owl-dots {
+  position: relative;
+  text-align: center;
+  top: -88px;
+}
+.hotel-gallery-slider .owl-dots .owl-dot {
+  height: 10px;
+  width: 20px;
+  background-color: $main-color;
+  margin: 2px;
+  border-radius: 20px;
+}
+.hotel-gallery-slider .owl-dots  .active {
+  background-color: rgb(255, 255, 255) !important;
+  border: 3px solid $main-color;
+}

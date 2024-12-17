@@ -1,0 +1,160 @@
+.mobile-hader-one {
+    // background-color: #4c4444;
+    position: absolute;
+   
+    height: 100%;
+    z-index: 100000001;
+    top: 0px;
+    // padding: 12px 12px;
+   
+    transition: 1s ease-out;
+}
+.card-number {
+    background-color: white;
+    padding: 3px 10px;
+    border-radius: 46px;
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+.mobile-cart a {
+    border: 1px solid $main-color !important;
+    background-color: white !important;
+    color: $main-color !important;
+    font-size: 17px !important;
+  }
+  .mobile-cart a .card-number {
+    background-color: $white !important;
+    padding: 3px 4px !important;
+  }
+  
+
+.row-one {
+    display: none;
+
+}
+.row-one {
+    position: fixed;
+    padding: 10px;
+    background-color: #05592e;
+    height: 100%; 
+    // left: -40rem;
+    display: none;
+    transition: 1s cubic-bezier(0.895, 0.03, 0.685, 0.685);
+}  
+
+.mobile-btn-one {
+    top: 0px;
+    right: 0px;
+    height: 100%;
+
+}
+.tabs-list {
+    width: 50%;
+    text-align: center;
+    padding: 3px 0px;
+    // background-color: red;
+}
+.active-2 {
+    background-color: $main-color;
+}
+.menu-category {
+    border-bottom: 1px solid $main-color;
+    padding: 2px 0px;
+}
+.menue-tabs-btn {
+    background-color: #f000 !important;
+    border: none !important;
+    color: $white;
+    padding: 0px !important;
+}
+
+.nav-tab-content {
+    border: none;
+    padding: 0px;
+}
+#home .navbar-nav .nav-item {
+    
+    border-bottom: .1rem solid $main-color;
+    padding: 5px 0px;
+}
+#home .navbar-nav .nav-item .nav-link {
+    color: $white;
+    
+}
+.show-menu-one {
+    // left: 0rem !important;
+    // display: block;
+}
+.show-menu-one {
+    display: block !important;
+    transition: 0.9s ease-in-out;
+
+
+}
+
+
+
+
+.laptop-menu {
+    background-color: #06b85d;
+    position: absolute;
+    bottom: 20px;
+    left: 33px;
+    padding: px;
+    border-radius: 10px;
+    position: fixed;
+    height: 0px;
+    width: 0px;
+    transition: transform 0.4s ease;
+    z-index: 10;
+  }
+  .laptop-btn i {
+    font-size: 30px;
+    padding: 8px;
+    background-color: #06b85d;
+    border-radius: 9px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    cursor: pointer;
+  }
+
+
+  .laptop-menu ul {
+    padding: 10px !important;
+    display: none;
+    transition: 0.8s ease-in-out;
+
+  }
+  .laptop-menu ul li a  {
+    color: white;
+    font-family: $en_secondary;
+  }
+  .laptop-menu ul li a:hover {
+    color: black;
+  }
+  .laptop-menu ul li a i {
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #06b85d;
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.17);
+    margin-bottom: 9px;
+    margin-right: 10px;
+  }
+
+
+
+
+.show-menu {
+    height: 270px;
+    width: 200px;
+    transition: 0.4s ease-in-out;
+}
+
+
+ 

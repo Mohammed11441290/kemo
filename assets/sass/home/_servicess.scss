@@ -1,0 +1,348 @@
+.services-section {
+  padding: 82px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.services-overlay {
+  content: "";
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.72),
+    rgba(30, 32, 43, 0.64),
+    rgba(40, 40, 44, 0.95)
+  );
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: absolute;
+}
+
+.flip-card {
+  background-color: transparent;
+
+  height: 270px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  width: 100%;
+
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card-front {
+  color: black;
+  transform: rotateY(0deg);
+  border: 1px solid #ffbf00;
+  padding: 10px;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  height: 262px;
+  margin: 0px auto;
+  text-align: inherit;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  align-items: center;
+}
+.raised-text {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #888, 4px 4px 0 #777, 6px 6px 0 #666;
+  color: #fff;
+}
+
+.icone {
+  width: 19%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 21px;
+  margin-bottom: 14px;
+}
+.image {
+  height: 230px;
+}
+.background-iamge {
+  position: absolute;
+  content: "";
+  background: rgba(2, 2, 2, 0.59);
+  height: 100%;
+  width: 100;
+  width: 100%;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+// servicess
+.pro-link {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  text-align: center;
+  background-color: #fbb0167a;
+  width: 100%;
+  margin: 13px;
+  padding: 10px;
+  margin: 0px auto;
+  left: 0px;
+  right: 0px;
+}
+.filter-btn button {
+  background-color: $secondary-color;
+  color: white;
+  padding: 2px 8px;
+  border: 2px solid $white;
+  border-radius: 6px;
+  outline: 1px solid $secondary-color;
+  margin-right: 4px;
+  margin-bottom: 5px;
+}
+.pro-title {
+  position: absolute;
+  top: 1px;
+  background-color: #00000087;
+  color: white;
+  padding: 11px;
+  font-size: 23px !important;
+}
+
+//
+
+.project-carousel .owl-dots {
+  display: block !important;
+  text-align: center;
+}
+.project-carousel .owl-dots .owl-dot {
+  background-color: $main-color;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+// call to actio
+
+.calltoaction {
+  background-color: #fbb01669;
+  padding: 27px 0px;
+}
+
+.phone-line span {
+  font-size: 40px;
+  color: $white;
+}
+.phone-line {
+  border: 1px solid white;
+  padding: 9px;
+  border-radius: 6px;
+}
+.conta-info {
+  line-height: 17px;
+}
+.iconss {
+  list-style: 0px;
+}
+.iconss {
+  margin-right: 12px;
+}
+.contact-info {
+  padding: 50px 10px;
+}
+.phone-line a {
+  color: $white;
+}
+.image-overlay {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: $secondary-color;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+.form-one {
+  border: 1px solid $main-color;
+  border-radius: 10px;
+  padding: 10px;
+}
+.form-tow {
+  padding: 26px 23px;
+  box-shadow: 0px 0px 11px -4px rgb(153, 147, 147);
+  border-radius: 11px;
+}
+#wpforms-463 {
+  margin: 0px !important;
+}
+#wpforms-388 {
+  margin: 0px !important;
+}
+.form-field {
+  padding: 5px 0px !important;
+}
+.form-field:first-child {
+  border-radius: 10px !important;
+}
+div.wpforms-container-full,
+div.wpforms-container-full .wpforms-form * {
+  border-radius: 5px !important;
+  font-family: $Medium-font-family !important;
+}
+
+.submit-btn {
+  padding: 4px 11px !important;
+  font-family: $bold-font-family !important;
+  color: $white !important;
+  border: 1px solid $main-color !important;
+  outline: 1px solid #bf0b0b !important;
+  background: $secondary-color !important;
+}
+
+#videoControls {
+  position: absolute;
+  top: 90%;
+  left: 1.5%;
+  right: 1.5%;
+  padding: 5px;
+}
+
+#progress {
+  width: 0%;
+  position: absolute;
+  top: -10px;
+  -webkit-appearance: none;
+  background-color: #ff9900;
+  height: 5px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+#progressBar {
+  width: 98.5%;
+  position: absolute;
+  top: -10px;
+  right: 1%;
+  -webkit-appearance: none;
+  background-color: #6d6e6d;
+  height: 5px;
+  z-index: 0;
+}
+
+#progressBar:focus {
+  outline: none;
+}
+#progressBar::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  height: 0;
+  width: 0;
+}
+#progressBar::-moz-range-thumb {
+  visibility: hidden !important;
+}
+
+#buttons {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+#videoContainer:hover #buttons {
+  opacity: 1;
+}
+
+#duration,
+#fastFwd {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  position: relative;
+  bottom: 5px;
+  left: 5px;
+}
+
+#mute,
+#closedCaption,
+#fullScreen,
+#volumeBar {
+  float: right;
+}
+
+#volumeSlider {
+  width: 60px;
+  float: right;
+}
+#volumeSlider::-webkit-slider-thumb {
+  background-color: green;
+  height: 10px;
+  width: 10px;
+}
+
+.contact-text::after {
+  position: absolute;
+  content: "";
+  background-color: #077d4124;
+  height: 133px;
+  width: 337px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  rotate: 144deg;
+  bottom: -30px;
+  z-index: -1;
+  border-radius: 50%;
+}
+.contact-text::before {
+  position: absolute;
+  content: "";
+  background-color: #00000024;
+  height: 133px;
+  width: 337px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  rotate: -144deg;
+  bottom: -30px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.embed-responsive.embed-responsive-100x400px {
+  overflow: hidden;
+}
+
+.empty-box {
+  height: 61px;
+  width: 10px;
+}

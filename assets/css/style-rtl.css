@@ -1,0 +1,34 @@
+/***********************************************
+ * *********************************************
+ * **  site style 
+ * *********************************************
+***********************************************/
+/* Apply specific styles to elements when direction is right-to-left */
+[dir=rtl] .title-one::after {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  width: 22%;
+  height: 3px;
+  bottom: 0;
+  right: 0px;
+  border-radius: 118px;
+}
+
+[dir=rtl] .dropdown-menu .nav-item {
+  text-align: right;
+}
+
+[dir=rtl] #searchform button {
+  border-radius: 40px 0px 0px 40px;
+}
+
+[dir=rtl] #searchform input {
+  border-radius: 0px 40px 40px 0px;
+  padding-right: 11px;
+}
+
+[dir=rtl] .accordion-button::after {
+  margin-right: auto;
+  margin-left: 0px;
+}/*# sourceMappingURL=style-rtl.css.map */

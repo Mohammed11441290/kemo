@@ -1,0 +1,238 @@
+/*
+    |> for styleing blog single content 
+ 
+*/
+
+
+/*
+Page Title Area Style
+=====================================================*/
+.page-title-area {
+    position: relative;
+    padding-top: 83px;
+    padding-bottom: 58px;
+    text-align: center;
+    z-index: 1;
+    background-color: #0e0129;
+    background-position: center;
+  }
+  
+  .page-title-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(../img/page-bg/page-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation: FocuS 1s linear 1s infinite;
+            animation: FocuS 1s linear 1s infinite;
+  }
+  
+  .page-title-area .page-title-content h2 {
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .page-title-area .page-title-content ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  .page-title-area .page-title-content ul li {
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #ffffff;
+  }
+  
+  .page-title-area .page-title-content ul li::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -7px;
+    background-color: $main-color;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .page-title-area .page-title-content ul li:last-child::before {
+    display: none;
+  }
+  
+  .page-title-area .page-title-content ul li a {
+    color: #ffffff;
+  }
+  
+  .page-title-area .page-title-content ul li a:hover {
+    color: $main-color;
+  }
+  
+  .page-title-area .page-title-content ul .active {
+    color: $main-color;
+  }
+
+
+
+
+
+
+//   blog footer
+
+.article-footer {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    background-color: #06693a;
+    padding: 5px 8px;
+    margin: 4px;
+    border-radius: 6px;
+  }
+
+.article-footer .article-tags span {
+    display: inline-block;
+    color: $white;
+    font-size: 20px;
+    margin-right: 5px;
+    position: relative;
+    
+  }
+.article-footer .article-tags span i {
+    font-family: boxicons !important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+  }
+  
+
+.social li {
+  padding: 1px;
+  // background-color: #b08f8f94;
+  margin-right: 3px;
+}
+  .social li i {
+    padding: 6px;
+    font-size: 20px;
+  }
+  .social li a {
+    color:$white;
+  }
+  .social li a i:hover {
+    color: $main-color !important;
+  }
+  .article-tags a {
+  
+    padding-right: 6px;
+  }
+  .article-tags {
+    // border-right: 5px solid black;
+    padding: 0px 1px;
+}
+  .share-it-one {
+    font-size: 33px !important;
+  }
+
+
+// gutting burh blod 
+.blog-qouts {
+  padding: 6px 14px;
+  border-right: 5px solid black;
+}
+
+.congratulation {
+
+  // position: fixed;
+  // bottom: 80px;
+  // z-index: 2;
+  border: none;
+  padding: 5px 22px;
+  border-radius: 48px;
+  // right: 16px;
+}
+
+
+
+
+.post-sammery {
+  padding: 13px;
+  border: 3px solid #077d41;
+}
+.date {
+  position: absolute;
+  background-color: #f9c607;
+  height: 90px;
+  width: 90px;
+  left: 0px;
+  top: px;
+  top: -66px;
+  border: 7px solid #077d41;
+}
+
+
+.blog-home::after {
+  content: "";
+  position: absolute;
+  width: 142px;
+  height: 104px;
+  background-color: $main-color;
+  top: -49px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  border-radius: 0px 0px 20px 20px;
+  z-index: -1;
+}
+
+.right.j {
+  padding: 2px;
+  border-radius: 9px;
+  box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.45);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#myButton {
+    background-image: linear-gradient(to right, #680af2 0%, #e9db13 100%, #ed0606 100%);
+  background-size: 200%;
+  animation: gradient 2s ease-in-out infinite;
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

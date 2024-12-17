@@ -1,0 +1,40 @@
+.form-one {
+    border: 1px solid #0000002e;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-btn-one {
+    padding: 5px 0px !important;
+    width: 100% !important;
+    background-color: #005689 !important;
+    color: white !important;
+    border-radius: 7px !important;
+    font-weight: bold;
+}
+
+// woo reviw form
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-url input {
+    width: 100%;
+}
+
+
+// revw
+#commentform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.comment-form-url{
+    display: none;
+}
+.comment-form-author
+.comment-form-email {
+    width: 49%;
+}
+.comment-form-cookies-consent,
+.comment-form-rating {
+    width: 100%;
+  }
